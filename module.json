@@ -1,0 +1,22 @@
+{
+    "name": "ryuutama_chn",
+    "title": "Translation: 中文 [龙蛋物语]",
+    "description": "为 FVTT 中的 龙蛋物语 系统添加了中文。",
+    "version": "0.1.0",
+    "minimumCoreVersion": "0.6.5",
+    "compatibleCoreVersion": "0.7.6",
+    "author": "HXQXH",
+    "scripts": [],
+    "styles": [],
+    "packs": [],
+    "languages": [
+      {
+        "lang": "cn",
+        "name": "中文",
+        "path": "cn.json"
+      }
+    ],
+    "url": "https://github.com/TI-130/ryuutama_chn",
+    "manifest": "https://raw.githubusercontent.com/TI-130/ryuutama_chn/main/module.json",
+    "download": "https://github.com/TI-130/ryuutama_chn/releases/download/0.1.0/ryuutama_chn.zip"
+  }
