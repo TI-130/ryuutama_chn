@@ -2,7 +2,7 @@
     "name": "ryuutama_chn",
     "title": "Translation: 中文 [龙蛋物语]",
     "description": "为 FVTT 中的[龙蛋物语]系统添加了中文。",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "minimumCoreVersion": "0.6.5",
     "compatibleCoreVersion": "0.7.6",
     "author": "HXQXH",
