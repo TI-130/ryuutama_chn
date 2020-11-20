@@ -1,14 +1,59 @@
 {
     "name": "ryuutama_chn",
     "title": "Translation: 中文 [龙蛋物语]",
-    "description": "为 FVTT 中的 龙蛋物语 系统添加了中文。",
+    "description": "为 FVTT 中的[龙蛋物语]系统添加了中文。",
     "version": "0.1.0",
     "minimumCoreVersion": "0.6.5",
     "compatibleCoreVersion": "0.7.6",
     "author": "HXQXH",
+    "system": ["ryuutama"],
     "scripts": [],
     "styles": [],
-    "packs": [],
+    "packs": 
+    [
+      {
+          "name": "职业",
+          "label": "职业（龙蛋）",
+          "system": "ryuutama",
+          "path": "./packs/class_cn.db",
+          "entity": "Item"
+      },
+      {
+          "name": "职业特性",
+          "label": "职业特性（龙蛋）",
+          "system": "ryuutama",
+          "path": "./packs/class_feature_cn.db",
+          "entity": "Item"
+      },
+      {
+          "name": "物品",
+          "label": "物品（龙蛋）",
+          "system": "ryuutama",
+          "path": "./packs/item_cn.db",
+          "entity": "Item"
+      },
+      {
+          "name": "魔法",
+          "label": "魔法（龙蛋）",
+          "system": "ryuutama",
+          "path": "./packs/spell_cn.db",
+          "entity": "Item"
+      },
+      {
+          "name": "特征",
+          "label": "特征 (龙蛋)",
+          "system": "ryuutama",
+          "path": "./packs/enchantment_cn.db",
+          "entity": "Item"
+      },
+      {
+          "name": "容器",
+          "label": "容器 (龙蛋)",
+          "system": "ryuutama",
+          "path": "./packs/container_cn.db",
+          "entity": "Item"
+      }
+    ],
     "languages": [
       {
         "lang": "cn",
@@ -18,5 +63,5 @@
     ],
     "url": "https://github.com/TI-130/ryuutama_chn",
     "manifest": "https://raw.githubusercontent.com/TI-130/ryuutama_chn/main/module.json",
-    "download": "https://github.com/TI-130/ryuutama_chn/releases/download/0.1.0/ryuutama_chn.zip"
+    "download": "https://github.com/TI-130/ryuutama_chn/releases/download/0.2/ryuutama_chn.zip"
   }
